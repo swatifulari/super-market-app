@@ -18,7 +18,7 @@ Endpoint Details:
 - Need additional handling of authorisation
 
 
-# POST "/createOrder" - Add product to Cart <<Dev In Progress>>
+# POST "/createOrder" - Add product to Cart - Dev In Progress
 - Exposed to customers
 - Help in adding product to customer's cart
 - Must handle the business logic for product offers
