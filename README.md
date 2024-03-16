@@ -4,6 +4,8 @@ Building a Spring Boot Application for super market.
 
 Current application is using dummy data provided in the code itself. 
 
+To run the application:
+Either click on Application.java and use Run as Java Application Option or use maven command - clean package spring-boot:run
 
 
 Endpoint Details:
