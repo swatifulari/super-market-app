@@ -2,7 +2,9 @@
 
 Building a Spring Boot Application for super market.
 
-Current application is using dummy data provided in the code itself. <<TODO: Set up a SQL Database to store, retrieve data related to products and promotional offers>>
+Current application is using dummy data provided in the code itself. 
+
+<<TODO: Set up a SQL Database to store, retrieve data related to products and promotional offers>>
 
 Endpoint Details:
 
@@ -18,7 +20,8 @@ Endpoint Details:
 - Need additional handling of authorisation
 
 
-# POST "/createOrder" - Add product to Cart - Dev In Progress
+# POST "/createOrder" - Add product to Cart
 - Exposed to customers
 - Help in adding product to customer's cart
 - Must handle the business logic for product offers
+- Handle business logic outside controller <<TODO>>

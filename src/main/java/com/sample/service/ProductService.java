@@ -30,13 +30,12 @@ public class ProductService {
 	public void setProductList(List<Product> productList) {
 		this.products = productList;
 	}
-	
+
 	public void generateDummyData() {
-		products.add(new Product("A",40));
-		products.add(new Product("B",10));
-		products.add(new Product("C",30));
-		products.add(new Product("D",25));
+		products.add(new Product("A", 40, 3, 70));
+		products.add(new Product("B", 10, 2, 15));
+		products.add(new Product("C", 30));
+		products.add(new Product("D", 25));
 	}
-	
 
 }
