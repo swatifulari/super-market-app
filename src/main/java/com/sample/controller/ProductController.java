@@ -46,8 +46,6 @@ public class ProductController {
 	@PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE)
 	@ResponseStatus(HttpStatus.CREATED)
 	public ResponseEntity<String> addProduct(@RequestBody List<Product> addProducts) {
-		System.out.println("add product endpoint");
-
 		if (productService.getProducts().containsAll(addProducts)) {
 			return new ResponseEntity<>("Product Already Exists", HttpStatus.BAD_REQUEST);
 		} else {

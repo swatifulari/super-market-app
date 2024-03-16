@@ -31,6 +31,10 @@ public class ProductService {
 		this.products = productList;
 	}
 
+	/*
+	 * Set dummy data.
+	 * 
+	 */
 	public void generateDummyData() {
 		products.add(new Product("A", 40, 3, 70));
 		products.add(new Product("B", 10, 2, 15));

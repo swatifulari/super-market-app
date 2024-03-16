@@ -8,7 +8,6 @@ public class HealthController {
 
 	@GetMapping("health")
 	public String getAppHealth() {
-		System.out.println("health endpoint");
 		return "Application is healthy!";
 	}
 	
